@@ -15,7 +15,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Library_Frontend">
       <Routes>
 
         {/* PUBLIC ROUTE */}
